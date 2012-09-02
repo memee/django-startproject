@@ -5,7 +5,7 @@ env.disable_known_hosts = True # always fails for me without this
 env.hosts = ['myproject.mydevhost']
 env.root = '/opt/webapps/myproject'
 env.proj_root = env.root + '/src/myproject'
-env.proj_repo = 'git@github.com:myuser/myrepo.git'
+env.proj_repo = 'git@myrepohost:myrepouser/myreponame.git'
 env.pip_file = env.proj_root + '/requirements.pip'
 
 
